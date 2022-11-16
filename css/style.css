@@ -1,0 +1,267 @@
+body {
+    font-family: 'fuggles';
+    background: lightslategray;
+    color: white;
+}
+#header {
+   width: 100%;
+   height: 100%;
+}
+.logoS {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Bio {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ 
+ button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ p {
+ font-size: 15px;
+ }
+
+ h1 {
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .footer{
+   display: flex;
+ }
+ .box{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: auto;
+ }
+ .navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+
+ ul {
+   list-style-type: none;
+   display: flex;
+ }
+
+ li {
+   margin: 20px;
+   color: #ffffff;
+   font-size:20px;
+ }
+li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ .Myskills {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+ }
+ #flexcontainer {
+  display: flex;
+  background-color: rgb(22, 17, 19);
+  align-content: center;
+  justify-content: center;
+ }
+ #flexcontainer div{
+  background-color: rgba(17, 198, 183, 0.801);
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+ }
+ .Define{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .UIDesign img{
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height:300px; 
+ }
+ .WebDev img{
+  align-items: center;
+  margin: 5px;
+  width: 50px;
+  height:200px; 
+ }
+ .Mywork{
+   display: grid;
+   grid-gap: var(--gridGap);
+    grid-template-rows: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-style: solid;
+ }
+ #WorkGrid{
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
+  grid-template-areas: "Firstproject"
+                        "Secondproject"
+                        "Thirdporject"
+                        "view";
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  border-style: solid;
+ }
+ .EASElogo{
+  display:flex;
+ }
+
+ #WorkGrid button{
+  width: 20%;
+  align-self: center;
+ }
+
+ .Firstproject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .Firstproject p{
+  align-items: center;
+  display: flex;
+ }
+
+ .Firstproject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+
+ .Firstproject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+
+ .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+ }
+ .HAP{
+  display:flex;
+ }
+ 
+ .Secondproject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+ 
+ .Secondproject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .Secondproject p{
+  align-items: center;
+  display: flex;
+ }
+ .Secondproject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+ .DOT{
+  display:flex;
+ }
+
+ .ThirdProject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+
+ .ThirdProject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+
+ .ThirdProject p{
+  align-items: center;
+  display: flex;
+ }
+ .ThirdProject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+  .view{
+    align-self:center ;
+    width: 80%;
+    padding: 15px 32px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px 3px;
+    cursor: pointer;
+  }
+  .toggleMe {
+    background-color: lightgrey; 
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    display: none;
+  }
+  .right{
+    position:absolute;
+    cursor: pointer;
+    text-align: left;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+ 
+
+
+
+
+ @media only screen and (max-width:600){
+ 
+}
+  
+ 
+ 
+
+
+ 
+ 
